@@ -1,0 +1,146 @@
+.home-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.home-left {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+}
+
+.home-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 600px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filters,
+.search-add {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filters select {
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  max-width: 200px;
+}
+
+.search-add {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-add input {
+  padding: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  outline: none;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.btn-create {
+  white-space: nowrap;
+  padding: 8px 16px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.custom-card {
+  border-radius: 16px !important;
+  transition: transform 0.2s ease;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.card-important {
+  border-left: 5px solid #dc3545!important;
+}
+
+.card-personal {
+  border-left: 5px solid #0d6efd!important;
+}
+
+.card-work {
+  border-left: 5px solid #198754!important;
+}
+
+.card-other {
+  border-left: 5px solid #ffc107!important;
+}
+
+.calendar-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.calendar-badge {
+  font-size: 0.8rem;
+}
+
+.badge-info {
+  background-color: #006b3d;
+  color: #000;
+  padding: 0.25em 0.5em;
+  border-radius: 0.5rem;
+  font-size: 0.8em;
+}
+
+.badge-secondary {
+  background-color: #006dcc;
+  color: #fff;
+  padding: 0.25em 0.5em;
+  border-radius: 0.5rem;
+  font-size: 0.8em;
+}
+
+.react-calendar {
+  border: none;
+  font-family: 'Inter', sans-serif;
+}
+
+.dot {
+  display: block;
+  margin-top: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
